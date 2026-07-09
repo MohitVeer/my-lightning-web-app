@@ -1,0 +1,27 @@
+:root, .slds-scope {
+  --slds-brand: #0176D3;
+  --slds-brand-dark: #014486;
+  --slds-brand-active: #014486;
+  --slds-success: #2E844A;
+  --slds-warning: #FE9339;
+  --slds-error: #BA0517;
+  --slds-text-default: #181818;
+  --slds-text-weak: #706E6B;
+  --slds-text-link: #0176D3;
+  --slds-bg-surface: #FFFFFF;
+  --slds-bg-canvas: #F3F3F3;
+  --slds-border: #DDDBDA;
+  --slds-border-strong: #DDDBDA;
+  --slds-radius: 4px;
+  --slds-radius-md: 8px;
+  --slds-font-family: "Salesforce Sans", "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --slds-font-size-base: 13px;
+  --slds-spacing-xxx-small: 0.1250rem;
+  --slds-spacing-xx-small:  0.2500rem;
+  --slds-spacing-x-small:   0.5000rem;
+  --slds-spacing-small:     0.7500rem;
+  --slds-spacing-medium:    1.0000rem;
+  --slds-spacing-large:     1.5000rem;
+  --slds-spacing-x-large:   2.0000rem;
+  --slds-spacing-xx-large:  3.0000rem;
+}
