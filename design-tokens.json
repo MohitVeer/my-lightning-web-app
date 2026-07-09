@@ -1,0 +1,61 @@
+{
+  "name": "Salesforce Default",
+  "color": {
+    "brand": {
+      "$type": "color",
+      "$value": "#0176D3"
+    },
+    "brandDark": {
+      "$type": "color",
+      "$value": "#014486"
+    },
+    "success": {
+      "$type": "color",
+      "$value": "#2E844A"
+    },
+    "warning": {
+      "$type": "color",
+      "$value": "#FE9339"
+    },
+    "error": {
+      "$type": "color",
+      "$value": "#BA0517"
+    },
+    "surface": {
+      "$type": "color",
+      "$value": "#FFFFFF"
+    },
+    "canvas": {
+      "$type": "color",
+      "$value": "#F3F3F3"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "#DDDBDA"
+    }
+  },
+  "radius": {
+    "sm": {
+      "$type": "dimension",
+      "$value": "4px"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "8px"
+    }
+  },
+  "spacing": {
+    "small": {
+      "$type": "dimension",
+      "$value": "0.7500rem"
+    },
+    "medium": {
+      "$type": "dimension",
+      "$value": "1.0000rem"
+    },
+    "large": {
+      "$type": "dimension",
+      "$value": "1.5000rem"
+    }
+  }
+}
