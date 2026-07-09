@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "nodes": [
+    {
+      "id": "frxqh9hn",
+      "type": "breadcrumbs",
+      "props": {
+        "items": "Accounts, Acme Corp, Opportunities"
+      },
+      "styles": {
+        "width": "full",
+        "spacingBottom": "small"
+      }
+    },
+    {
+      "id": "lqx7wsvv",
+      "type": "card",
+      "props": {
+        "title": "Opportunities",
+        "subtitle": "3 items",
+        "showFooter": true,
+        "footerText": "View All"
+      },
+      "styles": {
+        "width": "full"
+      },
+      "children": [
+        {
+          "id": "zq0edu1j",
+          "type": "tabs",
+          "props": {
+            "tabs": "Pricing, Demo, Articles, Reviews",
+            "active": "Pricing"
+          },
+          "styles": {
+            "width": "full"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8pns9m2f",
+      "type": "button",
+      "props": {
+        "label": "Button",
+        "variant": "neutral",
+        "disabled": false
+      },
+      "styles": {
+        "spacingTop": "small",
+        "spacingBottom": "x-small"
+      },
+      "actions": [
+        {
+          "id": "ym743la8",
+          "trigger": "click",
+          "kind": "scroll-to",
+          "message": "Hello from SLDS!",
+          "targetId": "o755rcgs"
+        }
+      ]
+    },
+    {
+      "id": "o755rcgs",
+      "type": "modal",
+      "props": {
+        "title": "New Opportunity",
+        "body": "Fill in the required fields below.",
+        "confirmLabel": "Save",
+        "cancelLabel": "Cancel"
+      },
+      "styles": {
+        "width": "full"
+      }
+    }
+  ]
+}
